@@ -76,9 +76,7 @@ $(document).ready( function(){
   $("#youlose").html("You have lost " + tally.losses + " games.")
   $("#youwin").html("You have won " + tally.wins + " games.")
   $("#tie").html("You tied " + tally.tie + " games.")
-  $("#empty").on("click", function() {
-    tally = cally;
-    // tally();
+ 
   })
   $('#empty').on('click', function() {
     $('#youwin').text('');
