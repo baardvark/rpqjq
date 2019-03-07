@@ -77,16 +77,11 @@ $(document).ready( function(){
   $("#youwin").html("You have won " + tally.wins + " games.")
   $("#tie").html("You tied " + tally.tie + " games.")
  
-  })
+  }
   $('#empty').on('click', function() {
     $('#youwin').text('');
     $('#youlose').text('');
     $('#tie').text('');
     updateTally();
   });
-  
-  
-  
-  }
-  
-  })
+})
