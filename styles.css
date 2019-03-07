@@ -9,3 +9,11 @@
   padding-top: 50px;
   text-align: center;
 }
+
+#rock, #scissors, #paper {
+  cursor: pointer;
+}
+
+#rock:hover, #scissors:hover, #paper:hover {
+  transform: translateY(-20px);
+}

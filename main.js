@@ -81,9 +81,9 @@ $(document).ready( function(){
     // tally();
   })
   $('#empty').on('click', function() {
-    $('tally.wins').empty();
-    $('tally.losses').empty();
-    $('tally.tie').empty();
+    $('#youwin').text('');
+    $('#youlose').text('');
+    $('#tie').text('');
     updateTally();
   });
   
